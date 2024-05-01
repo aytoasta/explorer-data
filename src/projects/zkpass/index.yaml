@@ -1,8 +1,28 @@
 name: zkPass
-categories:
-  - did
-description: Protocol for Private Data based on MPC, ZKP, 3P-TLS
+categories: 
+  - data-management
+  - DID
+  - Infrastructure
+  - KYC
+ecosystem: Chain Agnostic
+description: 'Private Data Oracle based on Hybrid ZK'
+product_launch_day: "2022-12-08"
+technology:
+  type: Zero Knowledge
+  name: Hybrid ZK
+  features:
+    - Generates ZKP
+    - Verifies ZKP
+project_status:
+  live_status: true
+  version: Mainnet
+  testnet: false
+  mainnet: true
 links:
   web: https://zkpass.org/home
+  twitter: https://twitter.com/zkpass
   github: https://github.com/zkPassOfficial
+  docs: https://docs.zkpass.org
 have_token: true
+team:
+  anonymous: false
